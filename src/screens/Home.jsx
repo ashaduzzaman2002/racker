@@ -9,8 +9,8 @@ const Home = () => {
       <ArrowGroups />
 
       <div className="homeContainer">
-        <Link to={'/new-section'} className="homeBox">
-          <p>+ New Section</p>
+        <Link to={'/new-session'} className="homeBox">
+          <p>+ New Session</p>
         </Link>
       </div>
     </div>

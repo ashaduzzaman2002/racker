@@ -105,7 +105,6 @@
   padding: 5px 12px;
 }
 
-
 @media only screen and (max-width: 1024px) {
   .new-section-container h3 {
     font-size: 14.5px;
@@ -127,11 +126,9 @@
   .newSessionBtn {
     font-size: 14px;
   }
-  
 }
 
 @media only screen and (max-width: 750px) {
-
   .session-input {
     width: 460px;
   }
@@ -145,7 +142,7 @@
 
   .new-section-container h3 {
     font-size: 13px;
-line-height: 12px;
+    line-height: 12px;
   }
 
   .session-input {
@@ -161,5 +158,4 @@ line-height: 12px;
   .session-inputout2 {
     width: 80%;
   }
-
 }
