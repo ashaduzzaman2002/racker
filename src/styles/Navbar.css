@@ -1,0 +1,69 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 8px 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  margin-left: 35px;
+}
+
+.brand img {
+  width: 60px;
+  height: 45px;
+}
+
+.brand p {
+  font-family: 'Volkhov';
+  font-weight: 400;
+  font-size: 28.004px;
+  height: 45px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.menu-bar {
+  margin-right: 142px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .brand {
+    margin-left: 30px;
+  }
+
+  .menu-bar {
+    margin-right: 112px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .brand {
+    margin-left: 27px;
+    height: 38px;
+  }
+
+  .brand img {
+    width: 48px;
+    height: 38px;
+  }
+
+  .brand p {
+    height: 38px;
+    font-weight: 400;
+    font-size: 27px;
+  }
+
+  .menu-bar {
+    margin-right: 44px;
+  }
+
+  .menu-bar img {
+    height: 25px;
+  }
+}

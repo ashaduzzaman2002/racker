@@ -1,0 +1,27 @@
+.homeContainer {
+  height: calc(100vh - 65px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.homeBox {
+  border: 1px solid lightgray;
+  padding: 14px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.homeBox p {
+  font-family: 'Vollkorn';
+  font-weight: 500;
+  font-size: 20px;
+  color: #0d1a26;
+  margin: 0;
+}
+
+.homeBox:hover {
+    opacity: 0.6;
+}

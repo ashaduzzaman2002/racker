@@ -1,0 +1,92 @@
+.loginContainer {
+  height: calc(100vh - 65px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputout {
+  width: 300px;
+  height: 42px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  display: flex;
+  position: relative;
+}
+
+.inputout input {
+    width: 92%;
+  height: 100%;
+  border: none;
+  padding: 0 13px;
+  background: none;
+  /* padding-right: 50px; */
+  border-radius: 5px;
+}
+
+.inputout input:focus {
+  outline: none;
+}
+
+.inputout img {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    opacity: 0.7;
+    right: 12px;
+    top: 12px;
+}
+
+.lableText {
+  font-family: 'Vollkorn';
+  font-weight: 600;
+  font-size: 15px;
+  color: #252a31;
+}
+
+.btnOut {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  width: 300px;
+}
+
+.loginBtn {
+  border: none;
+  width: 137px;
+  height: 40px;
+  background: #9d9d9d;
+  border-radius: 3px;
+  margin-top: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: 'Vollkorn';
+}
+
+.enable {
+  background: #252a31;
+  cursor: pointer;
+}
+
+.noCredentialContainer {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin-top: 18px;
+}
+
+.noCredentialContainer p {
+  font-family: 'Vollkorn';
+  font-weight: 400;
+  font-size: 13px;
+  color: #1e1e1e;
+}
+
+.noCredentialContainer img {
+  padding-left: 10px;
+  width: 16px;
+  height: 10.01px;
+}
