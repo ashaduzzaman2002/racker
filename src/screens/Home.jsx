@@ -1,6 +1,7 @@
 import React from 'react';
 import ArrowGroups from '../components/ArrowGroups';
 import '../styles/Home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -8,9 +9,9 @@ const Home = () => {
       <ArrowGroups />
 
       <div className="homeContainer">
-        <div className="homeBox">
+        <Link to={'/new-section'} className="homeBox">
           <p>+ New Section</p>
-        </div>
+        </Link>
       </div>
     </div>
   );

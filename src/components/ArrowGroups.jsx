@@ -5,7 +5,7 @@ import ArrowImg from '../assets/images/double-arrow.svg'
 const ArrowGroups = () => {
   return (
     <div className='arrowContainer'>
-      <div className='arrowout'>
+      <div className='arrowout' style={{borderRadius: "0px 5px 5px 0px"}}>
         <img src={ArrowImg} alt="" />
       </div>
 
