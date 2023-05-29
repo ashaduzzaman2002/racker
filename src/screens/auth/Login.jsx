@@ -6,8 +6,8 @@ import Eye from '../../assets/images/eye-solid.svg';
 import CloseEye from '../../assets/images/eye-slash-solid.svg';
 
 const Login = () => {
-  const [username, setUsername] = useState(null);
-  const [password, setPassword] = useState(null);
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
   const [showPass, setShowPass] = useState(false);
 
   const submitHandler = (e) => {

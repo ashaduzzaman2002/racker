@@ -7,9 +7,9 @@ import Off from '../assets/images/toggle-off-solid.svg'
 import '../styles/NewSession.css';
 
 const NewSession = () => {
-  const [sessionName, setSessionName] = useState(null);
-  const [blinds, setBlinds] = useState(null);
-  const [playerName, setPlayerName] = useState(null);
+  const [sessionName, setSessionName] = useState('');
+  const [blinds, setBlinds] = useState('');
+  const [playerName, setPlayerName] = useState('');
   const [seatEmpty, setSeatEmpty] = useState(false)
 
   const hamdleSubmit = (e) => {
